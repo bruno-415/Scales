@@ -3,7 +3,7 @@ int y;
 
 void setup() {
   size(500, 500);  //feel free to change the size
-  frameRate(60);
+  frameRate(10);
   //noLoop(); //stops the draw() function from repeating
 }
 void draw() {
