@@ -11,7 +11,6 @@ void draw() {
         scale(x, y);
     }
   }
-  delay(80);
 }
 
 void scale(int x, int y) {
