@@ -3,7 +3,7 @@ int y;
 
 void setup() {
   size(500, 500);  //feel free to change the size
-  noLoop(); //stops the draw() function from repeating
+  //noLoop(); //stops the draw() function from repeating
 }
 void draw() {
     for(int y = -35; y < 500; y += 35) {
@@ -11,6 +11,7 @@ void draw() {
         scale(x, y);
     }
   }
+  delay(80);
 }
 
 void scale(int x, int y) {
